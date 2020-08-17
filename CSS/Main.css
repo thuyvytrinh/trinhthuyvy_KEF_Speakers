@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	width: 1920px;
+	height: auto;
+	background-color: white;
+}
+
+.header
+{
+	width: 1920px;
+	height: 175px;
+
+}
+.background
+{
+	width: 1920px;
+	height: 922px;
+	background-image:url(../Images/BG-05.png);
+	background-size: 100%;
+}
+.Img1
+{
+	width: 1920px;
+	height: 747px;
+}
+.content1
+{
+	width: 1920px;
+	height: 438px;
+	background-color:#FFF;
+	padding-top:50px;
+}
+.content2
+{
+	width: 1920px;
+	height: 316.97px;
+	background-color:#609;
+}
+.containerproduct
+{
+	width: 1920px;
+	height: 706.781px;
+	background-color:#FCC;
+}
+
+
+.logo
+{
+	width: 242.199px;
+	height: 175px;
+	float:left;
+	background-color:black;
+	
+}
+.menu
+{
+	width: 1587.801px;
+	height: 175px;
+	float:left;
+	padding-left: 90px;
+	
+}
+
+ul li
+{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	margin-top: 110px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	text-align: center;
+	width: 270px;
+}
+ul li:hover
+{
+	border-bottom: 3px #F15A24 solid;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+ul li ul
+{
+	position: absolute;
+	left: -40px;
+	top: 50px;
+}
+ul li ul li
+{
+	float:none;
+	width: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin:0px;
+	text-align: left;
+	color:#333;
+}
+ul li ul
+{
+	width: 250px;
+	visibility:hidden;
+}
+
+
+
+ul li ul li:hover
+{
+	border-left: 6px white solid;
+	border-bottom: none;
+}
+
+ul li:hover ul
+{
+	visibility: visible;
+}
+ul li ul li a:hover
+{
+	color: white;
+}
+ul li ul li a
+{
+	color: black;
+}
+.content01
+{
+	width: 982.1342px;
+	height: 324px;
+	margin-left:470px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: justify;
+}
+.item
+{
+	width: 290px;
+	height: 290px;
+	background-color:#F66;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 25px;
+	float: left;
+}
+.container03
+{
+	width: 1920px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+
+}
+.contact
+{
+	width: 920px;
+	height: 500px;
+	background-color:white;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+.itemcontact
+{
+	width: 200px;
+	height: 400px;
+	background-color: White;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+p a
+{
+text-decoration: none;
+color:#666;
+}
+p a:hover
+{
+	border-bottom: 1px #F15A24 solid;
+}
+h1:hover
+{
+	border-bottom: 1px #F15A24 solid;
+	border-top: 1px #F15A24 solid;
+	width: 430px;
+}
